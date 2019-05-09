@@ -55,6 +55,5 @@ public class AdicionarActivity extends AppCompatActivity {
         tarefa.setNome(editTextNome.getText().toString());
         databaseReference.child("Tarefa").child(tarefa.getUid()).setValue(tarefa);
         finish();
-
     }
 }
