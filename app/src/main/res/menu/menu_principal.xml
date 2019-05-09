@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAdicionar"
+        android:icon="@drawable/ic_star"
+        android:title="@string/item1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuFavoritar"
+        android:icon="@drawable/ic_smile"
+        android:title="@string/item2"
+        app:showAsAction="always" />
+</menu>
